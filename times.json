@@ -1,0 +1,50 @@
+[
+  {
+    "subtractType" : "hours",
+    "start" : 3,
+    "end" : 2,
+    "diffHours": null
+  },
+  {
+    "subtractType" : "days",
+    "start" : 1,
+    "end" : 1,
+    "diffHours" : 2
+  },
+  {
+    "subtractType" : "days",
+    "start" : 2,
+    "end" : 2,
+    "diffHours" : 2
+  },
+  {
+    "subtractType" : "days",
+    "start" : 3,
+    "end" : 3,
+    "diffHours" : 2
+  },
+  {
+    "subtractType" : "days",
+    "start" : 4,
+    "end" : 4,
+    "diffHours" : 2
+  },
+  {
+    "subtractType" : "days",
+    "start" : 5,
+    "end" : 5,
+    "diffHours" : 2
+  },
+  {
+    "subtractType" : "days",
+    "start" : 6,
+    "end" : 6,
+    "diffHours" : 2
+  },
+  {
+    "subtractType" : "days",
+    "start" : 7,
+    "end" : 7,
+    "diffHours" : 2
+  }
+]

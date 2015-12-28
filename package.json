@@ -1,0 +1,15 @@
+{
+  "name": "librato-anomaly-detection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "cron": "^1.0.9",
+    "gauss": "^0.2.12",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "node-hipchat": "^0.4.5",
+    "q": "^1.4.1",
+    "request": "^2.65.0"
+  }
+}
