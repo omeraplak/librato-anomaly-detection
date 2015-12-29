@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/librato-anomaly-detection.png?compact=true)](https://npmjs.org/package/librato-anomaly-detection)
+
 # Librato Anomaly Detection
 Librato metrics Anomaly Detection - Proactive
 
