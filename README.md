@@ -4,12 +4,24 @@ Librato metrics Anomaly Detection - Proactive
 ## Requirements
 
 * node.js
+* npm
 
 ## Install
 
-* npm install
+### For local installing
 
-# Sample Config
+1. Clone or download this repository.
+- `npm install`
+
+### For global installing
+
+1. `npm install -g librato-anomaly-detection`
+
+## Usage
+
+If you use this module as local, you need to modify this config with your config.
+
+#### Sample Config
 
 ```javascript
 {
@@ -24,3 +36,7 @@ Librato metrics Anomaly Detection - Proactive
     "lowerMessageFormat" : "%s-%s aralığında %s ölçümü normal alt sınır olan %d değerinin % %d altında %d olarak kaydedilmiştir." //Hipchat alarm text
 }
 ```
+
+If you use this module as global, you can pass external config to this command via CLI.
+
+`librato-anomaly-detection --config ./configFile.json`

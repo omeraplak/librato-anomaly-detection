@@ -1,8 +1,13 @@
 {
   "name": "librato-anomaly-detection",
   "version": "1.0.0",
-  "description": "",
+  "description": "Librato metrics anomaly detection - proactive",
+  "author": "omeraplak",
+  "license": "MIT",
   "main": "app.js",
+  "bin": {
+    "librato-anomaly-detection": "bin/librato-anomaly-detection"
+  },
   "dependencies": {
     "cron": "^1.0.9",
     "gauss": "^0.2.12",
@@ -10,6 +15,15 @@
     "moment": "^2.10.6",
     "node-hipchat": "^0.4.5",
     "q": "^1.4.1",
-    "request": "^2.65.0"
-  }
+    "request": "^2.65.0",
+    "yargs": "^3.31.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omeraplak/librato-anomaly-detection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omeraplak/librato-anomaly-detection/issues"
+  },
+  "homepage": "https://github.com/omeraplak/librato-anomaly-detection"
 }
