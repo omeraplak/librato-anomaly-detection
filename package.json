@@ -13,9 +13,8 @@
     "gauss": "^0.2.12",
     "lodash": "^3.10.1",
     "moment": "^2.10.6",
-    "node-hipchat": "^0.4.5",
     "q": "^1.4.1",
-    "request": "^2.65.0",
+    "request": "^2.88.0",
     "yargs": "^3.31.0"
   },
   "repository": {

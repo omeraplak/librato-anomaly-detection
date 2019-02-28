@@ -29,13 +29,11 @@ If you use this module as local, you need to modify this config with your config
 {
     "libratoUsername" : "xxx%40xxx.com", //Librato username
     "libratoPassword" : "xxxx", //Librato api password
-    "hipchatToken" : "xxxx", //Hipchat Token
-    "hipchatRoomId" : -1, //Hipchat Room Id
+    "slackWebHookURL" : "xxxx", //slack webhook url
     "mean": 2,
     "alarmCount" : 2, //Alarm Count
-    "hipchatSenderName" : "xxx", //Hipchat Sender Name
-    "upperMessageFormat" : "%s-%s aralığında %s ölçümü normal üst sınır olan %d değerinin % %d üzerinde %d olarak kaydedilmiştir.", //Hipchat alarm text
-    "lowerMessageFormat" : "%s-%s aralığında %s ölçümü normal alt sınır olan %d değerinin % %d altında %d olarak kaydedilmiştir." //Hipchat alarm text
+    "upperMessageFormat" : "%s-%s aralığında %s ölçümü normal üst sınır olan %d değerinin % %d üzerinde %d olarak kaydedilmiştir.", //Slack alarm text
+    "lowerMessageFormat" : "%s-%s aralığında %s ölçümü normal alt sınır olan %d değerinin % %d altında %d olarak kaydedilmiştir." //Slack alarm text
 }
 ```
 

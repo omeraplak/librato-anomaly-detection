@@ -1,11 +1,9 @@
 {
-    "libratoUsername" : "xxx%40xxx.com",
-    "libratoPassword" : "xxxx",
-    "hipchatToken" : "xxxx",
-    "hipchatRoomId" : -1,
+    "libratoUsername" : "xxxxx",
+    "libratoPassword" : "xxxxx",
+    "slackWebHookURL" : "https://xxxxx",
     "mean": 2,
     "alarmCount" : 2,
-    "hipchatSenderName" : "xxx",
     "upperMessageFormat" : "%s-%s aralığında %s ölçümü normal üst sınır olan %d değerinin % %d üzerinde %d olarak kaydedilmiştir.",
     "lowerMessageFormat" : "%s-%s aralığında %s ölçümü normal alt sınır olan %d değerinin % %d altında %d olarak kaydedilmiştir."
 }

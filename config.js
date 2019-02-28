@@ -7,7 +7,7 @@ var externalConfig = {};
 
 try {
   externalConfig = require(argv.config);
-} catch(err) {
+} catch (err) {
   console.log(new Error('There is no file or may be corrupted.'));
 } finally {
   config = _.merge(config, externalConfig);
